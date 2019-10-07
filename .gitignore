@@ -1,0 +1,15 @@
+
+.DS_Store
+/node_modules/
+/public
+notes/
+/vendor/
+/wp/
+wp-config.php
+/content/*
+!/content/plugins/
+/content/plugins/*
+!/content/plugins/lvg-website
+!/content/themes/
+/content/themes/*
+!/content/themes/lvg-website
