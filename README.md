@@ -18,9 +18,10 @@
     - Renseigner les informations de connexion à la BDD
     - Renseigner les clés de salage [URL pratique](https://api.wordpress.org/secret-key/1.1/salt/)
     - Renseigner la constante `WP_CONTENT_URL` avec notre url locale
-- Changer les droits des fichiers/dossier de mon projet
+- Changer les droits des fichiers/dossier de mon projet à la racine du projet
     ```bash
-    sudo chown -R <user>:www-data .
+    sudo chown -R <user>:www-data . (linux)
+    # sudo chown -R <user>:_www . (mac)
     sudo find . -type f -exec chmod 664 {} +
     sudo find . -type d -exec chmod 775 {} +
     sudo chmod 644 .htaccess
