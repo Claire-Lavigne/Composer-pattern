@@ -22,6 +22,7 @@
     ```bash
     sudo chown -R <user>:www-data . (linux)
     # sudo chown -R <user>:_www . (mac)
+    # to know <user> : whoami
     sudo find . -type f -exec chmod 664 {} +
     sudo find . -type d -exec chmod 775 {} +
     sudo chmod 644 .htaccess
