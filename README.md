@@ -2,15 +2,14 @@
 
 ## Liste des étapes
 
-- Récupération du repo et mise en place du projet
-    - Cloner le repo `git clone...`.
-    - Renommer le dossier avec le nom du projet souhaité `mv <anciennom> <nouveaunom>`
-    - Se rendre dans le dossier nouvellement créé `cd <nouveaunom>`
-    - Supprimer le dossier `.git` afin de ne pas écraser le repo pattern d'origine et de ne pas garder l'historique du pattern dans notre nouveau projet. `sudo rm -R .git`
-    - Initialise `git` dans le dossier du projet `git init`
-    
-- Ouvrir repo dans VSCode `code .`
-- Installation de nos dépendances avec composer `composer install`
+- Mise en place du projet
+    - `git clone...`
+    - `mv <anciennom> <nouveaunom>`
+    - `cd <nouveaunom>`
+    - `rm -Rf .git`
+    - `git init`
+    - `code .`
+    - `composer install`
 
 - Création de la BDD
     - Aller sur PHPMyAdmin --> `Nouvelle base de données` --> wp_nom --> créer
